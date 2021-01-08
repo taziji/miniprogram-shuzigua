@@ -1,0 +1,31 @@
+<!--about.wxml-->
+
+<view class="about">
+    <view>《易经》数字卦占卦</view>
+	
+	<view>占卦需注意以下三点：</view>
+	
+	<view>第一，只问一件事，不要问一辈子；</view>
+	
+	<view>第二，只问自己眼前的遭遇，不问别人隐私；</view>
+	
+	<view>第三，只问正常事情，不问违背道义的事。</view>
+	
+	<view>占卦具体方法：</view> 
+	
+	<view>第一，选取三组三位数。</view> 
+	
+	<view>注意：三组数字随机选取，不能刻意为之；三组数字开头不能为0，0可以在中间或末尾。</view> 
+	
+	<view>第二，具体运算方法。</view> 
+		
+	<view>以第1组数字除以8，记下余数，若被8整除，则余数为8.</view> 
+	
+	<view>以第2组数字除以8，记下余数，若被8整除，则余数为8.</view> 
+	
+	<view>以第3组数字除以6，记下余数，若被6整除，则余数为6.</view> 
+	
+	<view>这样得到三个数字，分别代表占到的<font color="red">下卦、上卦与变爻</font>。</view> 
+	
+	<view>卦象详解参见<navigator url="https://www.zhouyi.cc/zhouyi/yijing64/" redirect>此处</navigator></view>
+  </view>

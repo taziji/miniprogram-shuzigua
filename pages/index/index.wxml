@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page__hd">
+    <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="scaleToFill" src="{{src}}"></image>
+    <text>{{details[0].name}}</text>
+    <text>{{xianTian8Gua[0].name}}</text>
+  </view>
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+
+    <view class="section">
+      <view class="section__title">input</view>
+      <input name="input1" placeholder="please input here" />
+    </view>
+
+    <view class="section">
+      <view class="section__title">input</view>
+      <input name="input2" placeholder="please input here" />
+    </view>
+
+    <view class="section">
+      <view class="section__title">input</view>
+      <input name="input3" placeholder="please input here" />
+    </view>
+
+    <view class="btn-area">
+      <button formType="submit">Submit</button>
+      <button formType="reset">Reset</button>
+    </view>
+  </form>
+  <!--   <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>

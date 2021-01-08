@@ -1,0 +1,6 @@
+<!--pages/gua/gua.wxml-->
+<view class="container">
+  <view class="page__hd">
+    <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="scaleToFill" src="{{src}}"></image>
+  </view>
+</view>
